@@ -1,0 +1,79 @@
+.cart-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cart-items {
+    margin-bottom: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cart-item-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .cart-item-info {
+    flex-grow: 1;
+    text-align: left;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  /* Форма оформления заказа */
+  .checkout-form {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .checkout-form input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .card-details {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .card-details input {
+    width: 50%;
+  }
+
+
+
+
+
+
+
+
+
+  
